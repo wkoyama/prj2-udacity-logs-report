@@ -1,0 +1,26 @@
+Este arquivo serve apenar para demonstrar de maneira hardcoded as saídas desse programa, com base nas queries já executadas.
+
+1. Quais são os três artigos mais populares de todos os tempos?
+__________________________________________________
+            Titulo	              | Visualizações
+__________________________________|_______________
+Candidate is jerk, alleges rival  |     342102
+Bears love berries, alleges bear  |     256365
+Bad things gone, say good people  |     171762
+__________________________________|_______________
+
+2. Quem são os autores de artigos mais populares de todos os tempos?
+__________________________________________________
+            Autor	              | Visualizações
+__________________________________|_______________
+Rudolf von Treppenwitz            |     342102
+Ursula La Multa                   |     256365
+Anonymous Contributor             |     171762
+__________________________________|_______________
+
+3. Em quais dias mais de 1% das requisições resultaram em erros?
+__________________________________________________
+            Data	              |     Erros
+__________________________________|_______________
+July 17, 2016                     |     2.32 %
+__________________________________|_______________
