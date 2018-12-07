@@ -8,7 +8,7 @@ from flask import Flask, request, redirect, url_for
 
 app = Flask(__name__)
 
-# HTML template for the forum page
+# TODO alterar o style para buscar de arquivo css externo
 HTML_WRAP = '''\
 <!DOCTYPE html>
 <html>
