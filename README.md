@@ -31,3 +31,7 @@ E as chamadas
 ```db = psycopg2.connect(DATABASE_URL, sslmode='require')```
 para 
 ```db = psycopg2.connect(database=DATABASE_URL)```
+
+### Arquivo SQL
+
+O arquivo `queries de projeto de log.sql` demonstra as queries usadas no programa com suas respectivas perguntas. Para essa V1 optei por uma implementação sem view e funcional. Acredito que com a View deverá melhorar um pouco mais a performance.
