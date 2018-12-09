@@ -1,1 +1,1 @@
-web: python src/report.py
+web: python src/report_web.py
