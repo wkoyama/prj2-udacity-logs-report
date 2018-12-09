@@ -4,8 +4,9 @@
 ## Descrição do Projeto
 
 O projeto tem como intuito construir uma ferramenta interna de relatórios que usará informações do banco de dados para descobrir de que tipo de artigos os leitores do site de jornal mais gostam.
+O projeto consiste de uma camada de banco de dados onde é feito as queries. A camada (report.py) que chama as funções de banco de dados obtém o resultado e imprime no console do programa o resultado.
 
-Esse projeto se encontra hospedado no Heroku com a mesma base de dados para os testes.
+Esse projeto se encontra hospedado no Heroku com a mesma base de dados para os testes e em uma versão web.
 
 https://wesley-log-report.herokuapp.com/
 
