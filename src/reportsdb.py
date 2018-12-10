@@ -13,7 +13,7 @@ def get_most_popular_articles():
 
     query = """select a.title, count(l.*) as view
                 from articles a, log l
-                where l.path = '%' || a.slug
+                where l.path like '%' || a.slug
                 group by a.slug, a.title
                 order by view desc
                 limit 3;"""
@@ -31,7 +31,7 @@ def get_authors_popular():
 
     query = """select aut.name, count(l.*) as view
             from articles a, log l, authors aut
-            where a.author = aut.id and l.path = '%' || a.slug
+            where a.author = aut.id and l.path like '%' || a.slug
             group by aut.name
             order by view desc
             limit 3;"""

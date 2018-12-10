@@ -10,7 +10,7 @@ limit 3;
 select aut.name, count(l.*) as view
 from articles a, log l, authors aut
 where a.author = aut.id and l.path like '%' || a.slug
-group by aut.name, a.slug
+group by aut.name
 order by view desc
 limit 3;
 
